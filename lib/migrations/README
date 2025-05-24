@@ -1,1 +1,25 @@
-Generic single-database configuration.
+# Freebie Tracker App
+
+A Phase 3 Python project using SQLAlchemy to model relationships between developers, companies, and the freebies given to devs.
+
+## Features
+
+- `Dev` can receive freebies from `Company`
+- Track all freebies and which devs own them
+- Find the oldest company
+- Each freebie shows details (item name and value)
+
+## Requirements
+
+- Python 3.8+
+- SQLAlchemy
+- Pytest
+
+## Setup
+
+Create a virtual environment and install dependencies:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt

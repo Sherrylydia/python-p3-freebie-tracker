@@ -1,9 +1,8 @@
-#!/usr/bin/env python3
+# debug.py
 
-from sqlalchemy import create_engine
+from base import session
+from company import Company
+from dev import Dev
+from freebie import Freebie
 
-from models import Company, Dev
-
-if __name__ == '__main__':
-    engine = create_engine('sqlite:///freebies.db')
-    import ipdb; ipdb.set_trace()
+import ipdb; ipdb.set_trace()
